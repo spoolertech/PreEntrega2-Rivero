@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing:auto
+    }
+
+    /* Aplicando Flexbox */
+
+    .body   {
+        background-color: whitesmoke;
+    }
+    .logo {
+        width: 8rem;
+    }
+
+   .nav { /* Menu Navegacion */
+   
+    background-color: darkslategray; /*Este Color me gusta */ 
+    padding: 2rem;  /*Espacio del NAV */
+    display: flex;
+    align-items: center; /* Acomodo los botones en el centro al lado del Logo */
+    justify-content: space-between; /* Alejo el Logo de los Botones */
+    flex-wrap: nowrap;
+    gap: 4rem;
+   }
+
+   .menu   {
+    list-style-type: none;  /* Quitamos los puntitos de los botones */
+    display: flex;
+      
+   }
+
+   .menu-item {
+        
+        color:white;
+        text-decoration: none; /* Quitamos el Subrayado de los botones */
+        padding: 2rem;
+        font-size: 21px;
+        justify-content:space-around ;
+            
+    } 
+
+    .titulo-index {
+        background-color: whitesmoke;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding: 2rem;
+        font-family: "Dela Gothic One", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+    /***************************************************************************/
+    /************************* INDEX *******************************************/
+    /***************************************************************************/
+
+    .parrafo1 {
+        background-color: whitesmoke;
+        padding: 3rem ;
+    }
+
+    .parrafo2 {
+        background-color: whitesmoke;
+        padding: 3rem;
+    }
+
+    /**************************************************************************/
+    /************************** NOSOTROS **************************************/
+    /**************************************************************************/
+
+    .parrafo3 { /* Parrafo Page "Nosotros" */
+        background-color: whitesmoke;
+        padding: 4rem;
+    }
+
+    .parrafo4 { /* Parrafo Page "Nosotros" */
+        background-color: whitesmoke;
+        padding: 4rem;
+    }    
+
+   /* .soporte { /*Pagina "Servicios"  BORRAR*/
+   /*     background-color: whitesmoke;
+        padding: 4rem;
+    } */ 
+
+    /*********************************************************/
+    /****************** SERVICIOS ****************************/
+    /**********************************************************/
+    .title-servidores {
+        display: grid; 
+        grid-template-columns: .35fr 1fr;
+        background-color: whitesmoke;
+        padding: 2rem;
+        padding-block: 1rem;
+        align-items: center;
+        font-family: "Nunito", sans-serif;
+        
+
+    }
+
+    .parrafo5-servicios {
+        background-color: whitesmoke;
+        font-size: 1rem;
+        padding: 1rem;
+        
+        
+    }
+
+    .foto-servidores {
+        padding: 2rem;
+        max-width: 40%;
+        display: grid;
+        grid-template-columns: 50% 20%;
+        grid-template-rows: 100px auto;
+        justify-content: space-between;
+        
+        
+    }
+
+    .title-hard {
+        display: grid; 
+        grid-template-columns: .40fr 1fr;
+        background-color: whitesmoke;
+        padding: 1rem;
+        padding-block: 1rem;
+        align-items: center;
+        font-family: "Nunito", sans-serif;
+        
+
+    }
+
+    .parrafo6-hard {
+        background-color: whitesmoke;
+        font-size: 1rem;
+        padding: 1rem;
+        
+        
+    }
+
+    .foto-hard {
+        padding: 2rem;
+        max-width: 40%;
+        
+        
+    }
+
+    .title-notebooks {
+        display: grid; 
+        grid-template-columns: .100fr 100fr;
+        background-color: whitesmoke;
+        padding: 2rem;
+        padding-block: 1rem;
+        font-family: "Nunito", sans-serif;
+        
+
+    }
+
+    .parrafo7-notebooks {
+        background-color: whitesmoke;
+        font-size: 1rem;
+        padding: 2rem;
+        
+        
+    }
+
+    .foto-notebooks {
+        padding: 2rem;
+        max-width: 40%;
+        
+        
+    }
+
+    .title-networking {
+        display: grid; 
+        grid-template-columns: .35fr 1fr;
+        background-color: whitesmoke;
+        padding: 2rem;
+        padding-block: 1rem;
+        align-items: center;
+        font-family: "Nunito", sans-serif;
+        
+
+    }
+
+    .parrafo8-networking {
+        background-color: whitesmoke;
+        font-size: 1rem;
+        padding: 1rem;
+        
+        
+    }
+
+    .foto-networking {
+        padding: 2rem;
+        max-width: 40%;
+        
+        
+    }
+
+
+    /*************************************************/
+    /**************** PRODUCTOS **********************/
+    /*************************************************/
+
+   .title-productos {
+    text-align: center;
+    padding: 2rem;
+}
+.productos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: darkgray;
+    width: 80%;
+    margin: 0%   auto;
+   }
+
+   .foto-caja1 {
+    width: 150px;
+    height: 150px;    
+   }
+    .caja1 {
+        width: 150px;
+        height: 150px;
+        border: 4px solid gray;
+        background-color: whitesmoke;
+        margin: 15px;
+        text-align: center;
+        line-height: 150px;
+    }
+
+    .caja2 {
+        width: 150px;
+        height: 150px;
+        border: 4px solid gray;
+        background-color: whitesmoke;
+        margin: 15px;
+        text-align: center;
+        line-height: 150px;
+    }
+    .caja3 {
+        width: 150px;
+        height: 150px;
+        border: 4px solid gray;
+        background-color: whitesmoke;
+        margin: 15px;
+        text-align: center;
+        line-height: 150px;
+    }
+    .foto-caja4 {
+        width: 150px;
+        height: 150px;
+    }
+    .caja4 {
+        width: 150px;
+        height: 150px;
+        border: 4px solid gray;
+        background-color: whitesmoke;
+        margin: 15px;
+        text-align: center;
+        line-height: 150px;
+    }
+    .caja5 {
+        width: 150px;
+        height: 150px;
+        border: 4px solid gray;
+        background-color: whitesmoke;
+        margin: 15px;
+        text-align: center;
+        line-height: 150px;
+    }
+    .caja6 {
+        width: 150px;
+        height: 150px;
+        border: 4px solid gray;
+        background-color: whitesmoke;
+        margin: 15px;
+        text-align: center;
+        line-height: 150px;
+    }
+
+    
+    @media screen and (max-width: 480px) {
+        
+        .productos {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: pink;
+        }
+        .caja2 {
+            background-color: blue;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+       
+    }  
+    @media screen and (max-width: 380px) {
+        
+        .productos {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: pink;
+        }
+        .caja2 {
+            background-color: blue;
+            min-height: 10vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .body {
+            background-color: blue;
+            height: 10vh;
+            display: flex;
+            flex-direction: column;
+        }
+    }    
+
+        /***************************************************************************/
+    /**************************   FOOTER ***************************************/
+    /***************************************************************************/
+
+    .footer {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        background-color: darkslategrey;
+        font-family: "Dela Gothic One", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    /************************************************************************************/
+    /************************ MEDIA QUERIES *********************************************/
+    /************************************************************************************/
+
